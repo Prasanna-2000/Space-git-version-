@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title>
+    <link rel="stylesheet" href="home_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="head">
+        <div class="box1">
+
+            <div class="relative_wrapper">
+                <div class="dropdown">
+                    <button class="dropbtn">Missions</button>
+                    <div class="dropdown-content">
+                        <a href="#">link 1</a>
+                        <a href="#">link 2</a>
+                        <a href="#">link 3</a>                
+                    </div>
+                </div>
+            </div>
+    
+            <div class="dropdown2">
+                <button class="dropbtn">Spacecraft</button>
+                <div class="dropdown-content">
+                    <a href="#">link 1</a>
+                    <a href="#">link 2</a>
+                    <a href="#">link 3</a>
+                </div>
+            </div>
+        </div>
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+        <div class="box2">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <h1 class="logo_name">Space</h1>
+        </div>
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+        <div class="box3">
+            <div class="box3_ham">
+                <a href="#">About</a>
+                <a href="#">Contact us</a>
+            </div>
+        </div>
+    </header>
+
+<!-- =======================================================================================     -->
+
+    <section>
+        <div class="sbox1">
+            <h2>Mate, consider signing in</h2>
+        </div>
+        <div class="sbox2">
+            <a href="#">login</a>
+        </div>
+    </section>
+
+<!-- =======================================================================================     -->
+
+    <main class="content">
+        <div class="container">
+            <div class="card">
+                <img src="images/saturn.png" width="90%" alt="">
+                <div class="quote">
+                    <h1>“To confine our attention to terrestrial matters would be to limit the human spirit. ” </h1>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <br>
+
+<!-- =======================================================================================     -->
+
+    <aside>
+        <div class="container1">
+            <div class="zcontainer">
+                <div class="abox1">
+                    <div class="innerbox1">
+                        <img src="images/planet2.jpg" alt="planet" width="100%" id="planet">
+                    </div>
+                    <div class="innerbox2">
+                        <h2>Planet</h2>
+                        <br>
+                        <p>A planet is an astronomical body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity, is not massive enough to cause thermonuclear fusion, and – according to the International Astronomical Union but not all planetary scientists – has cleared its neighbouring region of planetesimals.</p>
+                    </div>
+                </div>
+            </div>
+<!-- ------------------------------------------------------------------------------------------- -->
+            <div class="zcontainer">
+                <div class="abox2">
+                    <div class="innerbox3">
+                        <h2>Star</h2>
+                        <br>
+                        <p>A star is an astronomical object consisting of a luminous spheroid of plasma held together by its own gravity. The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night, but due to their immense distance from Earth they appear as fixed points of light in the sky.</p>
+                    </div>
+                    <div class="innerbox4">
+                        <img src="images/star.jpg" alt="star" width="100%">
+                    </div>
+                </div>
+            </div>
+<!-- ------------------------------------------------------------------------------------------- -->
+            <div class="zcontainer">
+                <div class="abox1" id="abox3">
+                    <div class="innerbox1">
+                        <img src="images/asteroid.jpg" alt="Asteroid" width="100%">
+                    </div>
+                    <div class="innerbox2">
+                        <h2>Asteroid</h2>
+                        <br>
+                        <p>An asteroid is a minor planet of the inner Solar System. Historically, these terms have been applied to any astronomical object orbiting the Sun that did not resolve into a disc in a telescope and was not observed to have characteristics of an active comet such as a tail</p>
+                    </div>
+                </div>
+            </div>
+<!-- ------------------------------------------------------------------------------------------- -->
+            <div class="zcontainer">
+                <div class="abox2" id="abox4">
+                    <div class="innerbox3">
+                        <h2>Kuiper belt</h2>
+                        <br>
+                        <p>The Kuiper belt is a circumstellar disc in the outer Solar System, extending from the orbit of Neptune at 30 astronomical units (AU) to approximately 50 AU from the Sun. It is similar to the asteroid belt, but is far larger – 20 times as wide and 20–200 times as massive.</p>
+                    </div>
+                    <div class="innerbox4">
+                        <img src="images/kuiper.jpg" alt="Kuiper belt" width="130%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <br> <br> <br> <br>
+
+<!-- =======================================================================================     -->
+
+    <footer class="end">
+        <h1>end</h1>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="{% static 'js lib/animation.gsap.min.js' %}"></script>
+    <script src="home_script.js"></script>
+
+</body>
+</html>
