@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
     var controller = new ScrollMagic.Controller();
@@ -70,7 +69,7 @@ abox1.addEventListener('mouseenter', (e) => {
 
 abox1.addEventListener('mouseleave', (e)=> {
     abox1.style.transform = "translateZ(0px)";
-    abox1.style.transition = "all 0.5s ease-out";
+    abox1.style.transition = "all 0.3s ease-out";
 })
 
 // ----------------------------------------------------------------------------
@@ -82,7 +81,7 @@ abox2.addEventListener('mouseenter', (e) => {
 
 abox2.addEventListener('mouseleave', (e)=> {
     abox2.style.transform = "translateZ(0px)";
-    abox2.style.transition = "all 0.5s ease-out"
+    abox2.style.transition = "all 0.3s ease-out"
 })
 
 // ----------------------------------------------------------------------------
@@ -94,7 +93,7 @@ abox3.addEventListener('mouseenter', (e) => {
 
 abox3.addEventListener('mouseleave', (e)=> {
     abox3.style.transform = "translateZ(0px)";
-    abox3.style.transition = "all 0.5s ease-out"
+    abox3.style.transition = "all 0.3s ease-out"
 })
 
 // ----------------------------------------------------------------------------
@@ -106,5 +105,5 @@ abox4.addEventListener('mouseenter', (e) => {
 
 abox4.addEventListener('mouseleave', (e)=> {
     abox4.style.transform = "translateZ(0px)";
-    abox4.style.transition = "all 0.5s ease-out"
+    abox4.style.transition = "all 0.3s ease-out"
 })

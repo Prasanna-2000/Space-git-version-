@@ -43,11 +43,11 @@ body{
     perspective: 1000px;
 }
 
-.end{
+/* .end{
     background-color: indigo;
     height: 100px;
     width: auto;
-}
+} */
 
 .dropdown{
     overflow: hidden;
@@ -292,3 +292,50 @@ aside{
     transform: translateY(0);
 }
 
+/* ------------------------------------------------------------------------------ */
+
+.foot{
+    display: grid;
+    width: 1fr;
+    height: 200px;
+    background-color:rgb(65, 27, 126);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'fbox1 fbox2 fbox3 fbox4';
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fbox1{
+    grid-area: fbox1;
+    padding: 30px;
+}
+
+.h3link{
+    color: rgb(198, 185, 238);
+}
+
+.alink{
+    color: white;
+}
+
+.fbox2{
+    grid-area: fbox2;
+    padding: 30px;
+}
+
+.fbox3{
+    grid-area: fbox3;
+    padding: 30px;
+}
+
+.fbox4{
+    grid-area: fbox4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.fbox4 img{
+    margin: 5px;
+}
