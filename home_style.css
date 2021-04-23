@@ -297,7 +297,7 @@ aside{
 .foot{
     display: grid;
     width: 1fr;
-    height: 200px;
+    height: 190px;
     background-color:rgb(65, 27, 126);
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 'fbox1 fbox2 fbox3 fbox4';
@@ -339,4 +339,12 @@ aside{
 
 .fbox4 img{
     margin: 5px;
+}
+
+.last{
+    text-align: center;
+    background-color:rgb(65, 27, 126);
+    color: white;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
