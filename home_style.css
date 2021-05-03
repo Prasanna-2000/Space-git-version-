@@ -348,3 +348,26 @@ aside{
     padding: 10px;
     font-family: 'Open Sans', sans-serif;
 }
+
+.more{
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.more_container{
+    background-color: rgb(111, 73, 172);
+    height: 50px;
+    width: 180px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    box-shadow: 5px 5px 20px;
+}
+
+.more_container a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}

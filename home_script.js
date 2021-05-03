@@ -57,53 +57,41 @@ container.addEventListener('mouseleave', (e) => {
 // =============================================================================
 
 
-const abox1 = document.querySelector(".abox1");
-const abox2 = document.querySelector(".abox2");
-const abox3 = document.querySelector("#abox3");
-const abox4 = document.querySelector("#abox4");
+var abox1 = document.querySelectorAll(".abox1");
+var abox2 = document.querySelectorAll(".abox2");
+const more = document.querySelector(".more_container")
 
-abox1.addEventListener('mouseenter', (e) => {
-    abox1.style.transform = "translateZ(50px)";
-    abox1.style.transition = "all 0.2s ease";
-})
 
-abox1.addEventListener('mouseleave', (e)=> {
-    abox1.style.transform = "translateZ(0px)";
-    abox1.style.transition = "all 0.3s ease-out";
-})
+for(let i=0; i<abox1.length; i++){
+    abox1[i].addEventListener('mouseenter', (e) => {
+        abox1[i].style.transform = "translateZ(50px)";
+        abox1[i].style.transition = "all 0.2s ease";
+    })
 
-// ----------------------------------------------------------------------------
+    abox1[i].addEventListener('mouseleave', (e)=> {
+        abox1[i].style.transform = "translateZ(0px)";
+        abox1[i].style.transition = "all 0.3s ease-out";
+    })
 
-abox2.addEventListener('mouseenter', (e) => {
-    abox2.style.transform = "translateZ(50px)";
-    abox2.style.transition = "all 0.2s ease";
-})
+    abox2[i].addEventListener('mouseenter', (e) => {
+        abox2[i].style.transform = "translateZ(50px)";
+        abox2[i].style.transition = "all 0.2s ease";
+    })
 
-abox2.addEventListener('mouseleave', (e)=> {
-    abox2.style.transform = "translateZ(0px)";
-    abox2.style.transition = "all 0.3s ease-out"
-})
-
-// ----------------------------------------------------------------------------
-
-abox3.addEventListener('mouseenter', (e) => {
-    abox3.style.transform = "translateZ(50px)";
-    abox3.style.transition = "all 0.2s ease";
-})
-
-abox3.addEventListener('mouseleave', (e)=> {
-    abox3.style.transform = "translateZ(0px)";
-    abox3.style.transition = "all 0.3s ease-out"
-})
+    abox2[i].addEventListener('mouseleave', (e)=> {
+        abox2[i].style.transform = "translateZ(0px)";
+        abox2[i].style.transition = "all 0.3s ease-out";
+    })
+}
 
 // ----------------------------------------------------------------------------
 
-abox4.addEventListener('mouseenter', (e) => {
-    abox4.style.transform = "translateZ(50px)";
-    abox4.style.transition = "all 0.2s ease";
+more.addEventListener('mouseenter', (e) => {
+    more.style.transform = "translateZ(100px)";
+    more.style.transition = "all 0.2s ease-out";
 })
 
-abox4.addEventListener('mouseleave', (e)=> {
-    abox4.style.transform = "translateZ(0px)";
-    abox4.style.transition = "all 0.3s ease-out"
+more.addEventListener('mouseleave', (e) => {
+    more.style.transform = "translateZ(0px)"
+    more.style.transition = "all 0.3s ease-out";
 })
